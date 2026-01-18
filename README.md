@@ -1,1 +1,1 @@
-i know theyre not the best/most optimal im just gathering what i know and trying to use it correctly
+i know this is not the best/most optimal code ever , but im just trying to gather some info and (hopefully) use it correctly
