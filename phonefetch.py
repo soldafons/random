@@ -1,7 +1,6 @@
 import platform
 import psutil
 
-
 soft_info = platform.uname()
 distro = platform.freedesktop_os_release()
 spacer_total = psutil.disk_usage("/").total/(1024**3)
