@@ -8,9 +8,7 @@ def get_data():
         try:
             city = input("Choose a city: ")
             site = requests.get(f"{url}weather?q={city}&appid={api}")
-            site.raise_for_status()
             data = site.json()
-            site.raise_for_status()
             return data
         except requests.exceptions.HTTPError:
             print("\nEnter the name correctly")
